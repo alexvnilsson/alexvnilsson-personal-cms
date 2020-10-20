@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experience"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.experience"
+    },
+    "DateStart": {
+      "type": "date"
+    },
+    "DateEnd": {
+      "type": "date"
+    }
+  }
+}
