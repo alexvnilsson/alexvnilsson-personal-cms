@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-leader",
+      "handler": "home-leader.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-leader",
+      "handler": "home-leader.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-leader",
+      "handler": "home-leader.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
