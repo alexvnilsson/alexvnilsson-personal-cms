@@ -2,23 +2,21 @@
   "collectionName": "components_page_leaders",
   "info": {
     "name": "leader",
-    "icon": "pager"
+    "icon": "pager",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "cover": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "content": {
       "type": "richtext"
+    },
+    "renderAsBanner": {
+      "type": "boolean"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cover"
     }
   }
 }

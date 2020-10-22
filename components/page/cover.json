@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_covers",
+  "info": {
+    "name": "Cover",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "backgroundColor": {
+      "type": "boolean"
+    }
+  }
+}
