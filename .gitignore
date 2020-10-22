@@ -112,3 +112,9 @@ license.txt
 exports
 .cache
 build
+
+############################
+# Misc
+############################
+
+.dontdelete/

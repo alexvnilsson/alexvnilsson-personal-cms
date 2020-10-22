@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "home_leaders",
+  "collectionName": "homes",
   "info": {
-    "name": "HomeLeader",
-    "description": ""
+    "name": "Home"
   },
   "options": {
     "increments": true,
@@ -11,8 +10,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Content": {
-      "type": "richtext"
+    "Leader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.leader"
     }
   }
 }

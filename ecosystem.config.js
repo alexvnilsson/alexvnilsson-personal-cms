@@ -13,6 +13,9 @@ module.exports = {
       name: "strapi",
       script: "npm start",
       watch: true,
+      env: {
+        NODE_ENV: "production",
+      },
     },
   ],
 };
