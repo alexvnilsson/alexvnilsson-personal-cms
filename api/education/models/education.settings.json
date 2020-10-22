@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "educations",
   "info": {
-    "name": "Education",
+    "name": "education",
     "description": ""
   },
   "options": {
@@ -11,19 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Educator": {
+    "educator": {
       "type": "string"
     },
-    "Field": {
+    "field": {
       "type": "string"
     },
-    "Summary": {
+    "summary": {
       "type": "richtext"
     },
-    "PeriodStart": {
+    "periodStart": {
       "type": "date"
     },
-    "PeriodEnd": {
+    "periodEnd": {
       "type": "date"
     }
   }

@@ -1,12 +1,12 @@
 {
   "collectionName": "components_page_leaders",
   "info": {
-    "name": "Leader",
+    "name": "leader",
     "icon": "pager"
   },
   "options": {},
   "attributes": {
-    "Cover": {
+    "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -17,7 +17,7 @@
       "plugin": "upload",
       "required": false
     },
-    "RichText": {
+    "content": {
       "type": "richtext"
     }
   }

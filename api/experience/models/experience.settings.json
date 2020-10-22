@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "experiences",
   "info": {
-    "name": "Experience",
+    "name": "experience",
     "description": ""
   },
   "options": {
@@ -11,19 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "WorkPlace": {
+    "workPlace": {
       "type": "string"
     },
-    "WorkTitle": {
+    "workTitle": {
       "type": "string"
     },
-    "Summary": {
+    "summary": {
       "type": "richtext"
     },
-    "PeriodStart": {
+    "periodStart": {
       "type": "date"
     },
-    "PeriodEnd": {
+    "periodEnd": {
       "type": "date"
     }
   }
