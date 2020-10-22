@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "experiences",
+  "collectionName": "educations",
   "info": {
-    "name": "Experience",
-    "description": ""
+    "name": "Education"
   },
   "options": {
     "increments": true,
@@ -11,14 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "WorkPlace": {
+    "Educator": {
       "type": "string"
     },
-    "WorkTitle": {
+    "Field": {
       "type": "string"
-    },
-    "Summary": {
-      "type": "richtext"
     },
     "PeriodStart": {
       "type": "date"
