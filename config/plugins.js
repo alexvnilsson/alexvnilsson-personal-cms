@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
       bucketName: env("GOOGLE_CLOUD_STORAGE_NAME", "bucket_name"),
       publicFiles: true,
       uniform: true,
-      serviceAccount: env.json("GOOGLE_CLOUD_STORAGE_KEY", {}),
+      serviceAccount: env.json("GOOGLE_CLOUD_STORAGE_CREDENTIALS", {}),
       baseUrl: `https://storage.googleapis.com/${env(
         "GOOGLE_CLOUD_STORAGE_NAME",
         "bucket_name"
