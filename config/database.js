@@ -2,10 +2,9 @@ module.exports = ({ env }) => ({
   defaultConnection: "default",
   connections: {
     default: {
-      connector: "firestore",
+      connector: "mongoose",
       settings: {
-        projectId: env("GOOGLE_CLOUD_PROJECT_ID", undefined),
-        keyFilename: "secrets/gcp_firestore.key",
+        uri: env("DATABASE_URI"),
       },
       options: {
         options: {
